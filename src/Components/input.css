@@ -1,0 +1,16 @@
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: aqua;
+    border-bottom: 2px solid red;
+  }
+
+  /* *{
+    background-image: url("https://cdn.pixabay.com/photo/2019/09/28/06/25/road-4510033__340.jpg");
+    
+  } */
+
+  
