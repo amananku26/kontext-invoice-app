@@ -1,7 +1,7 @@
 # kontext-invoice-app
 
 ##### 1. How long did you spend on the coding test?
-  ↠    Almost 5 Hours Yesterday and today 1.5 hrs i haave given to this Project.
+  ↠    Almost 5 Hours Yesterday and today 1.5 hrs total of => 6.5 hrs i have given to this Project.
 
 ##### 2. What would you add to your solution if you had more time? If you didn't spend much time on the coding test then use this as an opportunity to explain what you would add.
 
