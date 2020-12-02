@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6d12c71494099a984d7029deb57a2d7",
+    "revision": "dd62e924d822d1d710a2f1beab79b49e",
     "url": "/kontext-invoice-app/index.html"
   },
   {
-    "revision": "038e141eaea905d1b8ce",
+    "revision": "6dd11711b806e0009d0b",
     "url": "/kontext-invoice-app/static/css/main.5d001cc0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kontext-invoice-app/static/js/2.bef25fff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "038e141eaea905d1b8ce",
-    "url": "/kontext-invoice-app/static/js/main.afc66a2c.chunk.js"
+    "revision": "6dd11711b806e0009d0b",
+    "url": "/kontext-invoice-app/static/js/main.22c2bef2.chunk.js"
   },
   {
     "revision": "ee91ffdd3126c2f04de4",

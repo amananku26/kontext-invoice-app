@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kontext-invoice-app/precache-manifest.6eb69928b5cbdcf822066fad347a4c9e.js"
+  "/kontext-invoice-app/precache-manifest.f11f44498c0f4fc80c00fb350732d6d1.js"
 );
 
 self.addEventListener('message', (event) => {
