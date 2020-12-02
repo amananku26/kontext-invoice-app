@@ -102,7 +102,7 @@ class Register extends Component {
                         value="SignUp" type="submit" />
                 </form>
                 <GoogleLogin
-                    clientId="66440457074-emaoovrsp87m3l3q73548k1vsafmjoeo.apps.googleusercontent.com"
+                    clientId="66440457074-t6981od1ephcuu5989c0laagu2oakv8g.apps.googleusercontent.com"
                     buttonText="Login via Google"
                     onSuccess={this.responseGoogle}
                     onFailure={this.responseGoogle}

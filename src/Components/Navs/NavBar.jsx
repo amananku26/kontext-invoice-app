@@ -36,7 +36,7 @@ export default function NavBar() {
               Kontext
             </Typography>
             <Link style={{textDecoration:"none"}} to="/dashboard"><Button style={{color:"black" , merginRight:"18px", background:"white",borderRadius:"55px"}}><ArrowBackIcon/></Button></Link>
-            <Link style={{textDecoration:"none"}} to="/login"><Button style={{color:"black" , merginRight:"18px", background:"white",borderRadius:"55px"}}>Logout</Button></Link>
+            <Link style={{textDecoration:"none"}} to="/"><Button style={{color:"black" , merginRight:"18px", background:"white",borderRadius:"55px"}}>Logout</Button></Link>
           </Toolbar>
         </AppBar>
       </div>
@@ -49,7 +49,7 @@ export default function NavBar() {
           <Typography align="left" variant="h4" className={classes.title}>
             Kontext
           </Typography>
-          <Link style={{textDecoration:"none"}} to="/login"><Button style={{color:"white" , merginRight:"18px", background:"#ff1744",borderRadius:"55px"}}>Login</Button></Link>
+          <Link style={{textDecoration:"none"}} to="/"><Button style={{color:"white" , merginRight:"18px", background:"#ff1744",borderRadius:"55px"}}>Login</Button></Link>
          <Link style={{textDecoration:"none"}} to="/signup"> <Button style={{color:"white" , background:"#ff1744",borderRadius:"55px"}}>SignUp</Button></Link>
         </Toolbar>
       </AppBar>

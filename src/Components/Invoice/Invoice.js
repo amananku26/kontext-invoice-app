@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import styles from './Invoice.module.scss'
 import LineItems from './LineItems'
 import { v4 as uuidv4 } from 'uuid';
+import Copy from "./Copy"
+import {invoiceData} from "../../redux/action"
+import { connect } from 'react-redux'
 
 class Invoice extends Component {
 
@@ -66,7 +69,8 @@ class Invoice extends Component {
 
   handlePayButtonClick = () => {
     console.log(this.state);
-    alert(`${this.state}`)
+    alert("You Can Now Generate Your Bill")
+    this.props.invoiceData(this.state)
   }
 
   formatCurrency = (amount) => {
@@ -170,7 +174,9 @@ class Invoice extends Component {
         </div>
 
         <div className={styles.pay}>
-          <button className={styles.payNow} onClick={this.handlePayButtonClick}>Generate Bill</button>
+          
+          <button className={styles.payNow} onClick={this.handlePayButtonClick}>Submit</button>
+          <Copy/>
         </div>
 
        
@@ -182,4 +188,9 @@ class Invoice extends Component {
 
 }
 
-export default Invoice
+const mapDispatchToProps = dispatch => ({
+  invoiceData: (payload) => dispatch(invoiceData(payload)),
+})
+
+
+export default connect(null, mapDispatchToProps)(Invoice)

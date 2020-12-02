@@ -18,7 +18,7 @@ class Routing extends Component{
             <>
             <NavBar />
             <Switch>
-            <Route exact path="/login" render={()=> <Login />} />
+            <Route exact path="/" render={()=> <Login />} />
             <Route path="/signup" render={()=> <Register/>}/>
             <Route path="/dashboard" render={()=> <Private/>}/>
             </Switch>

@@ -1,4 +1,4 @@
-import { LOGIN_REQUEST, LOGIN_SUCCESS , LOGIN_FAILURE ,REGISTER_SUCCESS,REGISTER_GOOGLE_SUCCESS} from "./actionTypes";
+import {DATA_INVOICE, LOGIN_REQUEST, LOGIN_SUCCESS , LOGIN_FAILURE ,REGISTER_SUCCESS,REGISTER_GOOGLE_SUCCESS} from "./actionTypes";
 import axios from "axios"
 
 export const loginRequest = (payload) => ({
@@ -66,4 +66,14 @@ export const getUserData = (payload) => dispatch => {
   .then(res=>res.data)
   .then(res=> dispatch(loginSuccess(res)))
   .catch(err=>dispatch(loginfailure(err)))
+}
+
+export const dataInvoice = (payload) => ({
+  type: DATA_INVOICE,
+  payload
+});
+
+export const invoiceData = (payload) => dispatch => {
+  console.log(payload)
+  return dispatch(dataInvoice(payload))
 }

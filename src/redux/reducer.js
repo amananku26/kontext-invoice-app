@@ -1,4 +1,4 @@
-import { LOGIN_REQUEST, LOGIN_SUCCESS , LOGIN_FAILURE , REGISTER_SUCCESS, REGISTER_GOOGLE_SUCCESS} from "./actionTypes";
+import {DATA_INVOICE, LOGIN_REQUEST, LOGIN_SUCCESS , LOGIN_FAILURE , REGISTER_SUCCESS, REGISTER_GOOGLE_SUCCESS} from "./actionTypes";
 
 export const initState = {
   token:"",
@@ -7,7 +7,8 @@ export const initState = {
   isAuth:false,
   error:true,
   message:"",
-  registrationError: false
+  registrationError: false,
+  data:[]
 }
 
 const reducer = (state =initState,{type,payload} )=>{
@@ -53,6 +54,11 @@ const reducer = (state =initState,{type,payload} )=>{
           isAuth:true,
           isError:false,
           error:false
+        }
+        case DATA_INVOICE:
+        return{
+          ...state,
+          data:payload
         }
   
 

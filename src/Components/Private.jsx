@@ -15,7 +15,7 @@ function Private() {
         )}
         else {
             alert("You are Logged out ! Please Login to get access!");
-            return <Redirect to="/login" />
+            return <Redirect to="/" />
         }
 }
 
