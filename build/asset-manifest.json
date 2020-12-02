@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kontext-invoice-app/login/static/css/main.5d001cc0.chunk.css",
+    "main.js": "/kontext-invoice-app/login/static/js/main.22c2bef2.chunk.js",
+    "main.js.map": "/kontext-invoice-app/login/static/js/main.22c2bef2.chunk.js.map",
+    "runtime-main.js": "/kontext-invoice-app/login/static/js/runtime-main.6cc6bf23.js",
+    "runtime-main.js.map": "/kontext-invoice-app/login/static/js/runtime-main.6cc6bf23.js.map",
+    "static/js/2.bef25fff.chunk.js": "/kontext-invoice-app/login/static/js/2.bef25fff.chunk.js",
+    "static/js/2.bef25fff.chunk.js.map": "/kontext-invoice-app/login/static/js/2.bef25fff.chunk.js.map",
+    "index.html": "/kontext-invoice-app/login/index.html",
+    "precache-manifest.dadc8fe055bd64be5c5ef7d89dc85461.js": "/kontext-invoice-app/login/precache-manifest.dadc8fe055bd64be5c5ef7d89dc85461.js",
+    "service-worker.js": "/kontext-invoice-app/login/service-worker.js",
+    "static/css/main.5d001cc0.chunk.css.map": "/kontext-invoice-app/login/static/css/main.5d001cc0.chunk.css.map",
+    "static/js/2.bef25fff.chunk.js.LICENSE.txt": "/kontext-invoice-app/login/static/js/2.bef25fff.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6cc6bf23.js",
+    "static/js/2.bef25fff.chunk.js",
+    "static/css/main.5d001cc0.chunk.css",
+    "static/js/main.22c2bef2.chunk.js"
+  ]
+}
